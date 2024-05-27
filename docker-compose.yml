@@ -1,0 +1,9 @@
+version: "3.7"
+
+services:
+  tabagism_rag:
+    build:
+      dockerfile: Dockerfile
+    ports:
+      - 8000:8000
+    image: tabagism_rag:latest
